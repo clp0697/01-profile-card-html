@@ -1,0 +1,52 @@
+body {
+  background-color: lightblue; /* Sets the page background to light blue */
+  text-align: center; /* Centers all text horizontally */
+  font-family: 'Segoe UI', Arial, sans-serif; /* Sets a clean, modern font for the page */
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+h1 {
+  color: #003366; /* Dark blue color for the main heading */
+  font-size: 3em; /* Large font size for emphasis */
+}
+
+h2 {
+  color: #708090; /* Slate grey color for the subheading */
+  font-size: 2em; /* Slightly smaller than h1 */
+}
+
+p {
+  font-size: 1.25em; /* Larger font size for readability */
+  line-height: 1.6; /* More space between lines for easier reading */
+}
+
+.card {
+  background: #fff; /* White background for the card */
+  border: 1px solid #ccc; /* Light grey border around the card */
+  border-radius: 12px; /* Rounded corners for a softer look */
+  padding: 2em; /* Space inside the card around the content */
+  max-width: 350px; /* Limits the card width for a compact appearance */
+  margin: 3em auto; /* Adds space above/below and centers the card horizontally */
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06); /* Subtle shadow for depth */
+}
+
+.card ul {
+  list-style: none;           /* Remove bullet points */
+  padding: 0;                 /* Remove default padding */
+  margin: 1.5em 0 0 0;        /* Add spacing above the list */
+}
+
+.card ul li {
+  margin-bottom: 0.7em;       /* Add spacing between list items */
+}
+  list-style: none;           /* Remove bullet points */
+  padding: 0;                 /* Remove default padding */
+  margin: 1.5em 0 0 0;        /* Add spacing above the list */
+}
+
+.card ul li {
+  margin-bottom: 0.7em;       /* Add spacing between list items */
+}
